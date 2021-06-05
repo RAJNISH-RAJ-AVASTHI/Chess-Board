@@ -1,0 +1,25 @@
+.chess {
+    margin: 100px auto;
+    cursor: pointer;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+    font-size: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box:hover {
+    color: blue;
+    background-color: lightcyan;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
